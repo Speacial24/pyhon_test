@@ -17,7 +17,6 @@ def driver():
     yield driver
     driver.quit()
 
-
 # Test Class
 @pytest.mark.usefixtures("driver")
 class TestTaxiOrder:
